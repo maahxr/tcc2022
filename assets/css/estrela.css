@@ -1,0 +1,43 @@
+.estrelas input[type=radio]{
+    display: none;
+}.estrelas label i.fa:before{
+	content: '\f005';
+	color: #FC0;
+}.estrelas  input[type=radio]:checked  ~ label i.fa:before{
+	color: #CCC;
+}
+.estrelas { 
+    max-width: 480px;
+    overflow: hidden ; 
+    margin: 50px auto;
+    background: #ffffff; 
+    box-shadow: 1px 0px 1.2px 0px #e3e3e3; 
+    border-radius: 3px; 
+    padding: 1em; 
+  }
+  h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: rgb(0, 0, 0);
+  }
+  body {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(8, 86, 150) ;
+    padding: 0 20px 20px 20px;
+    border:1px solid black;
+  }
+  html {
+    background-color: #4682B4 ;
+  }
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }

@@ -1,0 +1,32 @@
+#intro {
+    background-attachment: fixed;
+    background-image: url("images/banner.jpg") ;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.spotlights > section > .image:before {
+    -moz-transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+    -ms-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+    background: rgba(3, 203, 253, 0.377);
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.wrapper.style2 {
+    background-image: linear-gradient(to right, #000000, #2b739c4d,  #4fb0b35b)  ;
+}
+.wrapper.alt {
+    background-image: linear-gradient(to right, #000000, #2b739c4d,  #4fb0b35b)  ;
+}
+
+.wrapper.style1 {
+    background-image: linear-gradient(to right, #000000, #2b739c4d,  #4fb0b35b)  ;
+}
